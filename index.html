@@ -22,12 +22,102 @@
   </head>
   <body>
     <!--==================== HEADER ====================-->
-    <header class="header" id="header"></header>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Aventures du Monde</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Accueil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">À Propos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Populaires</a>
+            </li>
+            <li class="nav__item">
+              <a href="#explore" class="nav__link">Explorer</a>
+            </li>
+          </ul>
+
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
 
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <img
+          src="assets/img/home-bg.jpg"
+          alt="image d'accueil"
+          class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Bienvenue à notre Agence</h3>
+            <h1 class="home__title">
+              Explorez <br />
+              Le Monde
+            </h1>
+            <p class="home__description">
+              Vivez des aventures inoubliables, découvrez des paradis, des îles,
+              des montagnes et bien plus encore. Réservez votre voyage
+              maintenant.
+            </p>
+            <a href="#" class="button">
+              Commencer votre aventure <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img
+                src="assets/img/home-trees.jpg"
+                alt="image"
+                class="home__card-img" />
+              <h3 class="home__card-title">Croatie</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="assets/img/home-lake.jpg"
+                alt="image"
+                class="home__card-img" />
+              <h3 class="home__card-title">Islande</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="assets/img/home-mountain.jpg"
+                alt="image"
+                class="home__card-img" />
+              <h3 class="home__card-title">Italie</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="assets/img/home-beach.jpg"
+                alt="image"
+                class="home__card-img" />
+              <h3 class="home__card-title">Espagne</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
 
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about"></section>
